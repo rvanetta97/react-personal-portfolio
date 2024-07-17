@@ -1,4 +1,6 @@
+import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS is imported
 
 function aboutMe() {
   return (
@@ -20,4 +22,4 @@ function aboutMe() {
   );
 }
 
-export default aboutMe;
+export default aboutMe();
