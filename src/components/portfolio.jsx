@@ -10,12 +10,11 @@ function Portfolio() {
       links: ['https://github.com/BeeCeeTee/TimeCapsule', 'https://beeceetee.github.io/TimeCapsule/']
     },
     {
-      title: 'Card Title 2',
-      image: '', // Add image path here if available
-      text: 'Another quick example text to build on the card title and make up the bulk of the card\'s content.',
-      links: ['#', '#']
+      title: 'NutriFit',
+      image: './assets/images/NutriFit.png', 
+      text: 'Elevate your wellness journey with Nutrifit, the all-in-one site designed to help you achieve your health and fitness goals. Nutrifit makes it easy to log your meals, track your workouts, and monitor your progress—all in one place!',
+      links: ['https://github.com/rvanetta97/NutriFit', 'https://nutrifit-47ii.onrender.com']
     }
-    // Add more card objects as needed
   ];
 
   return (
@@ -40,4 +39,5 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Portfolio();
+
