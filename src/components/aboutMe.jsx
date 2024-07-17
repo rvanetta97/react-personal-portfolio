@@ -5,7 +5,7 @@ function aboutMe() {
   return (
     <>
       <Card>
-        <Card.Img variant="top" src="../assets/enchanted-forest-1191723.jpg" />
+        <Card.Img variant="top" src={enchantedForestImage} />
         <Card.Title>aboutMe</Card.Title>
         <Card.Body>
           <Card.Text>

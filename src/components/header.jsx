@@ -1,12 +1,10 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 
-
-function header() {
+function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <>
+     <Navbar>
       <Container>
         <Navbar.Brand href="#home">Rachel Vanetta</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,8 +18,9 @@ function header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
+   
   );
 }
 
-export default header;
-
+export default Header;
