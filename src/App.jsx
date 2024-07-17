@@ -1,21 +1,20 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavbar from './components/Header';
-import ContactForm from './components./ContactForm'; 
-import Footer from './components/Footer'; 
-import Portfolio from './components/portfolio';
-import aboutMe from './components/aboutMe';
+import Header from './components/Header.jsx';
+import ContactForm from './components/contactForm.jsx';
+//import Footer from './components/footer.jsx';
+import Portfolio from './components/portfolio.jsx';
+import AboutMe from './components/aboutMe.jsx';
 
 function App() {
     return (
       <div>
-        <MyNavbar />
-        <aboutMe /> {/* Inserting the aboutMe component */}
-        <Portfolio /> {/* Inserting the Project component */}
+        <Header />
+        <AboutMe /> {/* Inserting the AboutMe component */}
+        <Portfolio /> {/* Corrected the comment to match the component name */}
         <ContactForm /> {/* Inserting the ContactForm component */}
         <Footer /> {/* Inserting the Footer component */}
       </div>
     );
   }
   
-  export default App;
+export default App;
