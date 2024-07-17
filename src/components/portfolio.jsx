@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-function TextExample() {
+function Portfolio() {
   const cardData = [
     {
       title: 'TimeCapsule',
@@ -40,4 +40,4 @@ function TextExample() {
   );
 }
 
-export default TextExample;
+export default Portfolio;
