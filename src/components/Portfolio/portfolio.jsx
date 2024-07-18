@@ -1,7 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import nutriFitImg from '../assets/NutriFit.png';
-import timeCapsuleImg from '../assets/TimeCapsule image.png';
+import nutriFitImg from '../../assets/NutriFit.png';
+import timeCapsuleImg from '../../assets/TimeCapsule image.png';
+import './portfolio.css';
 
 function Portfolio() {
   const cardData = [
@@ -28,10 +29,10 @@ function Portfolio() {
   return (
     <>
       {cardData.map((card, index) => (
-      <Card key={index} style={{ width: '18rem' }}>
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          {card.image && <Card.Img src={card.image} alt={card.title} className="mb-2 text-muted" />}
+      <Card key={index} className='projectCard'>
+        <Card.Body className='project-card-body'>
+          <Card.Title className='project-card-title'>{card.title}</Card.Title>
+          {card.image && <Card.Img src={card.image} alt={card.title} className="projectPic" />}
           <Card.Text>
             {card.text}
           </Card.Text>

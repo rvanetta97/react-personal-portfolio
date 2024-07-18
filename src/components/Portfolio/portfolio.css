@@ -1,0 +1,43 @@
+.links{
+    padding: 5px !important;
+    display: flex !important;
+    align-items:flex-start !important;
+    justify-content: center !important;
+}
+.project-card-body {
+    justify-content: center !important;
+    padding: 30px !important;
+    width: 300px !important;
+    margin: auto !important;
+    background-color: white !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    background-color: #395756 !important;
+}
+
+.projectCard {
+   padding: 20px !important;
+}
+
+.projectPic {
+    width: 100% !important;
+    height: 100% !important;
+}
+/* unvisited link */
+.main_header a:link {
+    color: white;
+}
+
+/* visited link */
+.main_header a:visited {
+    color: lightskyblue;
+}
+
+.project-card-title {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px !important;
+}
