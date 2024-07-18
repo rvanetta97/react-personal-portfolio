@@ -3,6 +3,7 @@ import Header from './components/Header.jsx';
 import ContactForm from './components/contactForm.jsx';
 import Portfolio from './components/portfolio.jsx';
 import AboutMe from './components/aboutMe.jsx';
+import './App.css';
 
 function App() {
     return (

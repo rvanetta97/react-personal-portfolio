@@ -1,8 +1,8 @@
 .navbar {
     background-color: #19381F !important;
     display: inline-block !important;
-    display: inline-block !important;
     margin-left: 25px !important;
+    width:auto !important;
   }
   
   .navbar-brand {

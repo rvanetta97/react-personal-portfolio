@@ -1,11 +1,12 @@
 import React from 'react';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav } from 'react-bootstrap'; 
+import '.././App.css';
 
 function Header() {
   return (
     <>
-     <Navbar>
-      <Container>
+     <Navbar className='.full-width-navbar'>
+      <Container className='.navbar-container'>
         <Navbar.Brand href="#home">Rachel Vanetta</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
