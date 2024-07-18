@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './components/header.jsx';
+import Header from './components/Header/header.jsx';
 import ContactForm from './components/contactForm.jsx';
 import Portfolio from './components/portfolio.jsx';
-import AboutMe from './components/aboutMe.jsx';
+import AboutMe from './components/About/aboutMe.jsx';
 import './App.css';
 
 function App() {

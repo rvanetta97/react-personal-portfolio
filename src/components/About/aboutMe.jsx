@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Resume from '../assets/Rachel Vanetta Resume 2024.pdf';
 import aboutImage from '../assets/enchanted-forest-1191723.jpg';
-import '.././App.css';
+import './aboutMe.css';
 
 function aboutMe() {
     const downloadResume = async () => {
