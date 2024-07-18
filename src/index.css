@@ -1,5 +1,8 @@
 .navbar {
     background-color: #19381F !important;
+    display: inline-block !important;
+    display: inline-block !important;
+    margin-left: 25px !important;
   }
   
   .navbar-brand {
@@ -13,4 +16,8 @@
   
   .nav-link:hover {
     color: #48BEFF !important;
+  }
+
+  .links {
+    padding: 10px
   }

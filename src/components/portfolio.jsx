@@ -16,24 +16,30 @@ function Portfolio() {
       links: ['https://github.com/rvanetta97/NutriFit', 'https://nutrifit-47ii.onrender.com']
     }
   ];
-
+  const getLinkName = (link) => {
+    if (link.includes('github.com')) {
+      return 'GitHub Project';
+    } else {
+      return 'Live Site';
+    }
+  };
   return (
     <>
       {cardData.map((card, index) => (
-        <Card key={index} style={{ width: '18rem' }}>
-          <Card.Body>
-            <Card.Title>{card.title}</Card.Title>
-            {card.image && <Card.Img src={card.image} alt={card.title} className="mb-2 text-muted" />}
-            <Card.Text>
-              {card.text}
-            </Card.Text>
-            {card.links.map((link, linkIndex) => (
-              <Card.Link key={linkIndex} href={link} target="_blank" rel="noopener noreferrer">
-                Link {linkIndex + 1}
-              </Card.Link>
-            ))}
-          </Card.Body>
-        </Card>
+      <Card key={index} style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>{card.title}</Card.Title>
+          {card.image && <Card.Img src={card.image} alt={card.title} className="mb-2 text-muted" />}
+          <Card.Text>
+            {card.text}
+          </Card.Text>
+          {card.links.map((link, linkIndex) => (
+            <Card.Link key={linkIndex} href={link} target="_blank" rel="noopener noreferrer" className = 'links'>
+              {getLinkName(link)} {/* Use the function to set the link name */}
+            </Card.Link>
+          ))}
+        </Card.Body>
+      </Card>
       ))}
     </>
   );
