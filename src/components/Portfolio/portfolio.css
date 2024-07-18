@@ -7,30 +7,25 @@
 .project-card-body {
     justify-content: center !important;
     padding: 30px !important;
-    width: 300px !important;
+    width: 500px !important;
     margin: auto !important;
-    background-color: white !important;
+    background-color: #F5CAC3 !important; /* Decided to keep this color */
     border-radius: 10px !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
-    background-color: #395756 !important;
+    align-items: center !important;
 }
 
 .projectCard {
    padding: 20px !important;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
 }
 
 .projectPic {
     width: 100% !important;
     height: 100% !important;
-}
-/* unvisited link */
-.main_header a:link {
-    color: white;
-}
-
-/* visited link */
-.main_header a:visited {
-    color: lightskyblue;
 }
 
 .project-card-title {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
+import './contact.css';
 
 function ContactForm() {
         const [formData, setFormData] = useState({
@@ -17,7 +18,7 @@ function ContactForm() {
         };
 
   return (
-    <Form>
+    <Form className='contact-form'>
       <Form.Group className="mb-3" controlId="formGroupName">
         <Form.Label>Name</Form.Label>
         <Form.Control

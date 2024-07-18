@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header/header.jsx';
-import ContactForm from './components/contactForm.jsx';
+import ContactForm from './components/Contact/contactForm.jsx';
 import Portfolio from './components/Portfolio/portfolio.jsx';
 import AboutMe from './components/About/aboutMe.jsx';
 import './App.css';

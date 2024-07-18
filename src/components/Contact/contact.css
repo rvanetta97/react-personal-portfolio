@@ -1,0 +1,21 @@
+
+.contact-form {
+    justify-content: center !important;
+    padding: 30px !important;
+    width: 500px !important;
+    margin: auto !important;
+    background-color: #F5CAC3 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line */
+ }
+
+.form-label {
+   padding: 10px;
+ }
+ .mb-3{
+    display: flex !important;
+    align-items:flex-start !important;
+    justify-content: center !important;
+ }
